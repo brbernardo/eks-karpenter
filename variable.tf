@@ -1,0 +1,14 @@
+variable "addon_cni_version" {}
+variable "addon_coredns_version" {}
+variable "addon_kubeproxy_version" {}
+variable "aws_region" {}
+variable "cluster_name" {}
+variable "default_tags" {}
+variable "fargate_profiles" {}
+variable "k8s_version" {}
+variable "karpenter_availability_zones" {}
+variable "karpenter_capacity_type" {}
+variable "karpenter_cpu_limit" {}
+variable "karpenter_instance_family" {}
+variable "karpenter_instance_sizes" {}
+variable "karpenter_memory_limit" {}
